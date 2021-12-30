@@ -8,15 +8,20 @@
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Clase 5</title>
+        <link rel="stylesheet" href="main.css" />
     </head>
     <body>
         <h1>Clase 5 - Tarea 1</h1>
-        <form onsubmit="return false;">
-            <label for="salario-anual">Por favor, ingresa tu salario anual:</label>
-            <input type="number" id="salario-anual" placeholder="Salario anual" />
-            <label for="salario-mensual">Tu salario mensual es:</label>
-            <input type="text" disabled id="salario-mensual" placeholder="Salario mensual" />
-            <input type="submit" value="Calcular" id="boton-calcular" />
+        <form id="formulario" onsubmit="return false;">
+            <div>
+                <label for="salario-anual">Por favor, ingresa tu salario anual:</label>
+                <input type="number" id="salario-anual" placeholder="Salario anual" />
+            </div>
+            <div>
+                <label for="salario-mensual">Tu salario mensual es:</label>
+                <input type="text" disabled id="salario-mensual" placeholder="Salario mensual" />
+            </div>
+            <div><input type="submit" value="Calcular" id="boton-calcular" /></div>
         </form>
 
         <script src="tarea-clase-5.js"></script>
