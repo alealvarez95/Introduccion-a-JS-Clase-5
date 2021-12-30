@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clase 5 - Tarea 3</title>
+    </head>
+    <body>
+        <h1>Clase 5 - Tarea 3</h1>
+        <div>
+            <p>Ingrese la duracion de las primeras 5 clases de r/Argentina-Programa.</p>
+        </div>
+        <form onsubmit="return false;">
+            <div>
+                <label for="video-uno-horas">Ingrese la duracion de la clase 1: </label>
+                <input type="number" id="video-uno-horas" class="horas" placeholder="Horas" />
+                <input type="number" class="minutos" placeholder="Minutos" />
+                <input type="number" class="segundos" placeholder="Segundos" />
+            </div>
+
+            <div>
+                <label for="video-dos-horas">Ingrese la duracion de la clase 2: </label>
+                <input type="number" id="video-dos-horas" class="horas" placeholder="Horas" />
+                <input type="number" class="minutos" placeholder="Minutos" />
+                <input type="number" class="segundos" placeholder="Segundos" />
+            </div>
+
+            <div>
+                <label for="video-tres-horas">Ingrese la duracion de la clase 3: </label>
+                <input type="number" id="video-tres-horas" class="horas" placeholder="Horas" />
+                <input type="number" class="minutos" placeholder="Minutos" />
+                <input type="number" class="segundos" placeholder="Segundos" />
+            </div>
+
+            <div>
+                <label for="video-cuatro-horas">Ingrese la duracion de la clase 4: </label>
+                <input type="number" id="video-cuatro-horas" class="horas" placeholder="Horas" />
+                <input type="number" class="minutos" placeholder="Minutos" />
+                <input type="number" class="segundos" placeholder="Segundos" />
+            </div>
+
+            <div>
+                <label for="video-cinco-horas">Ingrese la duracion de la clase 5: </label>
+                <input type="number" id="video5-horas" class="horas" placeholder="Horas" />
+                <input type="number" class="minutos" placeholder="Minutos" />
+                <input type="number" class="segundos" placeholder="Segundos" />
+            </div>
+
+            <input type="submit" value="Calcular tiempo total" id="boton-calcular" />
+
+            <strong id="resultado"></strong>
+        </form>
+        <script src="tarea3.js"></script>
+    </body>
+</html>
