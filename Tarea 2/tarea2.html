@@ -5,19 +5,29 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Clase 5 - Tarea 2</title>
+        <link rel="stylesheet" href="main.css" />
     </head>
     <body>
-        <h1>Clase 5 - Tarea 2</h1>
-        <h2>Bienvenido!</h2>
+        <header>
+            <h1 class="titulo">Clase 5 - Tarea 2</h1>
+            <h2 class="titulo">Bienvenido!</h2>
+        </header>
+
         <form onsubmit="return false;">
-            <label for="primer-nombre-usuario">Por favor, ingresa tu primer y segundo nombre:</label>
-            <input type="text" id="primer-nombre-usuario" placeholder="Primer Nombre" />
-            <input type="text" id="segundo-nombre-usuario" placeholder="Segundo Nombre" />
-            <label for="apellido-usuario">ahora tu apellido: </label>
-            <input type="text" id="apellido-usuario" placeholder="Apellido" />
-            <label for="edad-usuario">y por ultimo tu edad:</label>
-            <input type="number" id="edad-usuario" placeholder="Edad" />
-            <input type="submit" value="Ingresar datos" id="boton" />
+            <div>
+                <label for="primer-nombre-usuario">Por favor, ingresa tu primer y segundo nombre:</label>
+                <input type="text" id="primer-nombre-usuario" placeholder="Primer Nombre" />
+                <input type="text" id="segundo-nombre-usuario" placeholder="Segundo Nombre" />
+            </div>
+            <div>
+                <label for="apellido-usuario">ahora tu apellido: </label>
+                <input type="text" id="apellido-usuario" placeholder="Apellido" />
+            </div>
+            <div>
+                <label for="edad-usuario">y por ultimo tu edad:</label>
+                <input type="number" id="edad-usuario" placeholder="Edad" />
+            </div>
+            <div><input type="submit" value="Ingresar datos" id="boton" /></div>
         </form>
         <div>
             <p id="parrafo"></p>

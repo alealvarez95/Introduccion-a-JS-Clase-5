@@ -1,0 +1,26 @@
+html,
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    color: ghostwhite;
+    background-color: rgb(51, 89, 121);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 0.3rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#resultado {
+    font-size: 20px;
+    padding: 1rem;
+}
